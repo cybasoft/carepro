@@ -37,6 +37,6 @@ You can assign access to an admin, manager, staff member or parent.
 
 > We offer one-time installation support. Check it out at <http://amdtllc.com/support-pricing>
 
-# Installation
+## Installation
 
 <https://amdtllc.github.io/carepro>

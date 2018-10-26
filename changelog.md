@@ -3,8 +3,7 @@
 ## Version 2.2.0 | 17 Oct 2018
 
 * Added internationalization. User can  select languages defined in the system.
-* Added documentation <http://your-installation.com/docs>
-
+* Added documentation <http://your-domain.com/docs>
 
 ## Version 2.1.9 | 8 Oct 2018
 
