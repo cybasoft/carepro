@@ -37,17 +37,17 @@
 If  you are on development/testing server, create the respective directories and copy the database.php and config.php there.
 
 * Run `php index.php migration run` to run a new migration copy or just `php index.php migration run <version number>`  to upgrade to the latest migration.
+*`php indx.php migration run`, you will need to confirm by typing in production mode "yes"
+* `composer install` install dependencies
+* Run `php index.php migration seed` to run all available seeds or `php index.php migration seed SeederClass` where SeederClass is the name of the seeder file. Ommit the numeric portion '00_' and extension '.php'.
 
-* In production mode, run `php indx.php migration run force`
-* Run  `php index.php migration seed <table (optional)>`
+Available seeders:
 
-> The Table option can be left blank to run all available seeds.
-
-Available seed options:
-
-`php index.php migration seed users`- Create admin user
-
-`php index.php migration seed groups` - Create admin, manager, staff and parent groups
+`UsersTableSeeder`
+`GroupsTableSeeder`
+`NewsTableSeeder`
+`RoomsTableSeeder`
+`CalendarTableSeeder`
 
 > IMPORTNANT! Remember to set your application to production in index.php when setup is complete! You can also set environment in your .htaccess by adding `SetEnv CI_ENV production`
 
@@ -60,6 +60,8 @@ After seeding, you will have a default admin user to login into your application
 > IMPORTANT! Remember to reset the password for the default admin account!
 
 > You can reload migrations by running `php index.php migration refresh`. You must be in development environment. All data will be lost
+
+> You can undo the last migration by running `php index.php migration undo`
 
 ## Advanced
 
