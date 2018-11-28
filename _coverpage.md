@@ -1,6 +1,6 @@
 ![logo](_media/logo.png ':no-zoom'  ':size=300')
 
-# Version <small>2.2.2</small>
+# Version <small>2.2.3</small>
 
 > User guide
 

@@ -1,6 +1,6 @@
 # Change log
 
-## Version 2.2.3 |
+## Version 2.2.3 | 28 Nov 2018
 
 * Fixed room/staff assignment issues
 * Fixed count of staff/children in rooms
