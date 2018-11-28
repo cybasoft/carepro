@@ -1,5 +1,14 @@
 # Change log
 
+## Version 2.2.3 |
+
+* Fixed room/staff assignment issues
+* Fixed count of staff/children in rooms
+* Fixed modals not working properly in child module
+* Updated roles enforcement
+* Improved database queries and performance
+* Minor improvements
+
 ## Version 2.2.2 | 10 Nov 2018
 
 * Fixed migration issue
